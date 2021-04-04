@@ -41,7 +41,7 @@ public class BotWeServerService {
 FollowModel flmodel;
 WefinetModel wemodel;
 String[] arrayBetG  =  {"G","T","T","G","G","T","T","G","G","T","T","G"};
-String[] arrayBetT  =  {"T","G","G","T","G","G","T","T","G","G","T","T"};
+String[] arrayBetT  =  {"T","G","G","T","T","G","G","T","T","G","G","T"};
 int[] arrayPriceBet  = {1,2,4,8,16,32,64,128,256,512,1024,2048};
 
 @Autowired
