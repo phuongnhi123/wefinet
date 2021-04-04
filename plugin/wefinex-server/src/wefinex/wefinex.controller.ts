@@ -15,13 +15,13 @@ export module WefinetController {
                response.json().then((response) => {
 				       let temp = response.d.map( (item) => {
                  return  {
-                  data: item , 
+                  createdTime: item[0] , 
                   openPrice: item[1] , 
                   highPrice: item[2],
                   lowPrice: item[3],
                   closePrice: item[4],
                   settledDateTime:item[6] ,
-                  status: item[8] , type: item[1] >= item[4] ? "G" : "T" } }).sort(function (a, b) { return  b.settledDateTime - a.settledDateTime  ; });
+                  status: item[8] , type: item[1] >= item[4] ? "G" : "T" } }).filter( z => z.status === 0).sort(function (a, b) { return  b.settledDateTime - a.settledDateTime  ; });
                   resolve(temp);
               });
             } else {

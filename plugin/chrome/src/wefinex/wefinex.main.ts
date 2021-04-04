@@ -114,13 +114,10 @@ const listenerCommand = (user): void => {
          console.log(lastTime);
          reload = setTimeout(() => { window.location.reload(); }, (lastTime*1000)); 
           if(data && window.location.href.indexOf('wefinex.net/index') != -1 ) {
-            if(document.querySelector('.btnSuccess').getAttribute('disabled') === 'disabled') {
-                const timeWaitEl = document.querySelector('a.btnTransparent').textContent.match(/\d+/) ;
-                if(timeWaitEl) {
-                     const timeAwait =  Number(timeWaitEl[0]) ;
+            if(currentSeconds >= 30) {
+                     const timeAwait =  30 - ( currentSeconds%30 === 0 ? 30 : currentSeconds%30);
                      console.log("Chờ ..." + timeAwait + "s");
                       setTimeout( () => {  placeBet(data) } , (timeAwait + 1 )*1000);
-                   }
                  } else {
                 console.log("place bet ...");
                 const d = new Date();

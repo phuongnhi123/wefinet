@@ -24,18 +24,24 @@ try {
      setTimeout( () =>  { } , 60*1000);
 }
 const saveResult = (data) => {
-    if(data.status == 1) { console.log('< 30s'); return ; }
+    if(data.status == 1 || new Date().getSeconds() >= 30) { console.log('< 30s'); return ; }
     if(lastResultSaved+"" !== data.settledDateTime+"") {
         WefinetController.updateResult(data).then( z=> {
             lastResultSaved = data.settledDateTime+"";
             localStorage.setItem('LASTSAVED',lastResultSaved);
-            console.log("saved ----> " + lastResultSaved);
+            console.log("saved ----> "  + (new Date(Number(lastResultSaved)).getSeconds()) + " " + lastResultSaved + " "  + data.type + " " +  data.status) ;
         });
     } else {
         console.log("this is result is saved");
     }
 }
 const startServer = (): void => {
+    const currentSeconds = new Date().getSeconds() ;
+    let lastTime = currentSeconds < 30 ? (30 - currentSeconds) : 60;
+        lastTime = lastTime + 60;
+        console.log(lastTime);
+    reload = setTimeout(() => { window.location.reload(); }, (lastTime*1000)); 
+
   
     const collectData = () => {
         const minutes = new Date().getSeconds();
@@ -45,7 +51,6 @@ const startServer = (): void => {
         setTimeout( () => {
             console.log("call api");
             WefinetController.chartData().then( (data: any[]) => {
-             
                 saveResult(data[0]);
             })
             collectData();
