@@ -125,29 +125,7 @@
 			<artifactId>jna-platform</artifactId>
 			<version>5.4.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.DeathByCaptcha</groupId>
-			<artifactId>DeathByCaptcha</artifactId>
-			<version>4.6</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/com.DeathByCaptcha.jar</systemPath>
-		</dependency>
 
-		<dependency>
-			<groupId>org.base64</groupId>
-			<artifactId>base64</artifactId>
-			<version>4.6</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/org.base64.jar</systemPath>
-		</dependency>
-
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>4.6</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/org.json.jar</systemPath>
-		</dependency>
 		<dependency>
 			<groupId>com.google.firebase</groupId>
 			<artifactId>firebase-admin</artifactId>

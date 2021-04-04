@@ -37,10 +37,10 @@ public class ChatBotService {
             logger.log(Level.INFO, "ChatBotService -> Closed Driver!");
         }
     }
-    @PostConstruct
+//    @PostConstruct
     public void init() {
         driver = seleniumConfig.getFireFoxWebDriver();
-            this.listenerComamdZalo();
+//            this.listenerComamdZalo();
 
     }
     public void listenerComamdZalo() {

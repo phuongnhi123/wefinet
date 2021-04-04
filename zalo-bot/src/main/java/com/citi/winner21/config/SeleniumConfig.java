@@ -1,6 +1,6 @@
 package com.citi.winner21.config;
 
-import com.citi.winner21.model.ProviderAccount;
+
 import io.github.bonigarcia.wdm.DriverManagerType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Proxy;
@@ -42,29 +42,7 @@ public class SeleniumConfig {
         System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "false");
     }
 
-    public WebDriver getChromeWebDriver(ProviderAccount account) {
-       /* ChromeOptions options = new ChromeOptions();
-        options.addArguments(browserOptions);
-        //options.setProxy(buildProxy(account, true));
-        return new ChromeDriver(options);*/
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments(browserOptions);
-        // Add the WebDriver proxy capability.
-       // options.setCapability("proxy", buildProxy(account, true));
-        return new ChromeDriver(options);
-
-    }
-
-   public WebDriver getFireFoxWebDriver(ProviderAccount account) {
-        FirefoxOptions options = new FirefoxOptions();
-        options.addArguments(browserOptions);
-        options.setLogLevel(FirefoxDriverLogLevel.ERROR);
-       options.addPreference("app.update.auto", false);
-        options.setProxy(buildProxy(account, false));
-        options.addPreference("app.update.enabled", false);
-        options.addPreference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0");
-        return new FirefoxDriver(options);
-    }
+  
 
     public WebDriver getFireFoxWebDriver() {
         FirefoxOptions options = new FirefoxOptions();
@@ -83,11 +61,5 @@ public class SeleniumConfig {
         return new ChromeDriver(options);
     }
 
-    private Proxy buildProxy(ProviderAccount account, boolean isChromeDriver) {
-        String defaultAuthProxy = isChromeDriver ? account.getProxyUrlWithSchema() : account.getProxyHost() + ":" + account.getProxyPort();
-        Proxy proxy = new Proxy();
-        proxy.setHttpProxy(defaultAuthProxy);
-        proxy.setSslProxy(defaultAuthProxy);
-        return proxy;
-    }
+
 }
