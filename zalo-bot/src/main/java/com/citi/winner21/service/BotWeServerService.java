@@ -37,6 +37,7 @@ public class BotWeServerService {
     private static final SimpleDateFormat sdfdatetimemm = new SimpleDateFormat("dd:MM:yyyy HH:mm");
     String bet="";
     String betBefore="";
+    String thualandau="G";
     int count=0;
 FollowModel flmodel;
 WefinetModel wemodel;
@@ -96,13 +97,15 @@ TotalAmountService tmservice;
 						e1.printStackTrace();
 						System.out.println("update kq fail");
 					}
-                     
+                    
                      if(count==0) {
+                    	 thualandau=bet+"";
+                    	 System.out.println("thua lan đầu");
                     	   bet=list.get(0).getType();
                      }else { 
-                         if(bet.equals("G")){
+                         if(thualandau.equals("G")){
                          bet=arrayBetG[count] ;
-                         }else if(bet.equals("T")){
+                         }else if(thualandau.equals("T")){
                          bet=arrayBetT[count] ;
                           }
                      }
