@@ -33,10 +33,14 @@ public class BotWeServerService {
     FolowService flsService;
     @Autowired
     ProductService prService;
-
+    @Autowired
+    FolowVipService flvipsService;
+    @Autowired
+    ProductVipService prvipService;
     private static final SimpleDateFormat sdfdatetimemm = new SimpleDateFormat("dd:MM:yyyy HH:mm");
     String bet="";
     String betBefore="";
+    int pricebetvip=1;
     String thualandau="G";
     int count=0;
 FollowModel flmodel;
@@ -53,6 +57,17 @@ TotalAmountService tmservice;
  TotalAmountModel tmmodeltemp;
  double buget;
 
+
+WefinetModel wemodelvip;
+FollowModel flmodelvip;
+@Autowired
+TotalAmountVipService tmvipservice;
+
+ TotalAmountModel tmmodelvip;
+
+ TotalAmountModel tmmodeltempvip;
+ double bugetvip;
+
     @PreDestroy
     public void destroy() {
         
@@ -60,10 +75,15 @@ TotalAmountService tmservice;
     @PostConstruct
     public void init() { 
     	buget=130;
+    	bugetvip=15;
     	flmodel= new FollowModel();
     	 wemodel=new WefinetModel();
     	 tmmodeltemp= new TotalAmountModel();
     	 tmmodel= new TotalAmountModel();
+    	 flmodelvip= new FollowModel();
+    	 tmmodeltempvip= new TotalAmountModel();
+    	 tmmodelvip= new TotalAmountModel();
+    	 wemodelvip=new WefinetModel();
     		EventListener<QuerySnapshot> eventListener = (documentSnapshot, e) -> { 
     			
     			 List<WefinexResult> list= documentSnapshot.toObjects(WefinexResult.class); 
@@ -82,6 +102,14 @@ TotalAmountService tmservice;
                 wemodel.setType(betBefore); 
                 wemodel.setLastUpdate(new Date());
                 wemodel.setPrice(arrayPriceBet[count]+"");
+                
+                //set betvip 
+				 wemodelvip.setId(wemodel.getId());
+				 wemodelvip.setLastUpdate(wemodel.getLastUpdate());				
+				 wemodelvip.setTime(wemodel.getTime());
+				 wemodelvip.setType(wemodel.getType());
+                
+                
                 if(!bet.equals("")&&!list.get(0).getType().equals(betBefore)){ 
                      System.out.println("lenh nay thua bet truoc do "+betBefore+ "lan thua" +count); 
                       //nếu bet thua đánh xen ke giam tang tang giam  Gấp thếp
@@ -92,6 +120,16 @@ TotalAmountService tmservice;
                     	 
 						prService.updateDoc(wemodel);
 						 capnhatLaiLo(wemodel);
+						 if(count>4&&count<9) {
+							 wemodelvip.setAction(wemodel.getAction()); 
+							 wemodelvip.setPrice(pricebetvip+""); 
+							 prvipService.updateDoc(wemodelvip);
+							 capnhatLaiLoVip(wemodelvip);
+						 }
+						 
+						 
+						 
+						 
 					} catch (ExecutionException | InterruptedException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
@@ -124,6 +162,13 @@ TotalAmountService tmservice;
                 	  try {
   						prService.updateDoc(wemodel);
   						 capnhatLaiLo(wemodel);
+  						 if(count>4&&count<9) {
+							 wemodelvip.setAction(wemodel.getAction()); 
+							 wemodelvip.setPrice(pricebetvip+""); 
+							 prvipService.updateDoc(wemodelvip);
+							 capnhatLaiLoVip(wemodelvip);
+						 }
+						 
   					} catch (ExecutionException | InterruptedException e1) {
   						// TODO Auto-generated catch block
   						e1.printStackTrace();
@@ -145,6 +190,35 @@ TotalAmountService tmservice;
                 try {
                 	System.out.println("đẩy lệnh lên server"+flmodel.toString());
 					flsService.updateDoc(flmodel);
+				 
+					switch (count) {
+					case 5:
+						pricebetvip=arrayPriceBet[0];
+						break;
+					case 6:
+						pricebetvip=arrayPriceBet[1];
+						break;
+					case 7:
+						pricebetvip=arrayPriceBet[2];
+						break;
+					case 8:
+						pricebetvip=arrayPriceBet[3];
+						break;
+					default:
+						pricebetvip=0;
+						break;
+					}
+					if(count>4&&count<9) { 
+						flmodelvip.setId(flmodel.getId());
+						flmodelvip.setPrice(pricebetvip+"");
+						flmodelvip.setTime(flmodel.getTime());
+						flmodelvip.setType(flmodel.getType()); 
+						System.out.println("đẩy lệnh vip lên server"+flmodelvip.toString());
+						flvipsService.updateDoc(flmodelvip);
+					}
+					
+					
+					
 				} catch (ExecutionException | InterruptedException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -206,6 +280,47 @@ TotalAmountService tmservice;
 		
 	}
     
+    
+
+	
+    private void capnhatLaiLoVip(WefinetModel wemodel2) throws ExecutionException, InterruptedException {
+	try {
+
+	String id=wemodel2.getId().split(" ")[0];
+	tmmodeltempvip=tmvipservice.getDocId(id);
+	tmmodelvip.setId(id);
+	tmmodelvip.setBudget(bugetvip);
+	tmmodelvip.setLastUpdate(new Date());
+	double profit=0;
+    	if(wemodel2.getAction().equals("THANG")) {
+    		//thang
+	 profit=Double.parseDouble(wemodel2.getPrice().trim())*0.95;  
+	
+	}else {
+		//thua
+	 profit= Double.parseDouble(wemodel2.getPrice().trim())*-1;  
+	}
+	if(tmmodeltempvip!=null) {
+		//update	
+        tmmodelvip.setProfit(profit+tmmodeltempvip.getProfit());	
+        tmmodelvip.setTotalAmount((bugetvip+profit+tmmodeltempvip.getProfit())+"");
+        tmvipservice.updateDoc(tmmodelvip);
+	}else {	 
+        tmmodelvip.setProfit(profit);	
+        tmmodelvip.setTotalAmount((bugetvip+profit)+""); 
+        tmvipservice.saveDoc(tmmodelvip);
+	} 
+	
+	System.out.println("cập nhật lãi lỗ vip ok");
+} catch (Exception e) {
+	//
+	e.printStackTrace();
+	System.out.println("cập nhật lãi lỗ vip fail");
+}	
+	
+		
+	}
+        
 public String getnetxtimetrade(int minus) {
 	 String time="";
 	 try {
