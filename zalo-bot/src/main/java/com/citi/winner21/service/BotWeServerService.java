@@ -120,7 +120,7 @@ TotalAmountVipService tmvipservice;
                     	 
 						prService.updateDoc(wemodel);
 						 capnhatLaiLo(wemodel);
-						 if(count>4&&count<9) {
+						 if(count>4&&count<7) {
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
 							 prvipService.updateDoc(wemodelvip);
@@ -162,7 +162,7 @@ TotalAmountVipService tmvipservice;
                 	  try {
   						prService.updateDoc(wemodel);
   						 capnhatLaiLo(wemodel);
-  						 if(count>4&&count<9) {
+  						 if(count>4&&count<7) {
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
 							 prvipService.updateDoc(wemodelvip);
