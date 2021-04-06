@@ -68,171 +68,171 @@ TotalAmountVipService tmvipservice;
  TotalAmountModel tmmodeltempvip;
  double bugetvip;
 
-    @PreDestroy
-    public void destroy() {
-        
-    }
-    @PostConstruct
-    public void init() { 
-    	buget=130;
-    	bugetvip=15;
-    	flmodel= new FollowModel();
-    	 wemodel=new WefinetModel();
-    	 tmmodeltemp= new TotalAmountModel();
-    	 tmmodel= new TotalAmountModel();
-    	 flmodelvip= new FollowModel();
-    	 tmmodeltempvip= new TotalAmountModel();
-    	 tmmodelvip= new TotalAmountModel();
-    	 wemodelvip=new WefinetModel();
-    		EventListener<QuerySnapshot> eventListener = (documentSnapshot, e) -> { 
-    			
-    			 List<WefinexResult> list= documentSnapshot.toObjects(WefinexResult.class); 
-    			 flmodel.setId("command"); 
-                System.out.println(list.toString()); 
-                if(bet==""){
-                    count= 0 ;
-                }
-                String idwe1=dateToStringPlus(new Date(list.get(0).getCreatedTime()),0);
-                String idwe=dateToStringPlus(new Date(list.get(0).getSettledDateTime()),0);
-                String timeCk=getnetxtimetrade(-1);
-                System.out.println("lenh cuoi cung"+idwe+"gio lệnh cuối"+timeCk+"--"+idwe1);
-                if(idwe1.equals(timeCk)) {
-                wemodel.setId(idwe1);
-                wemodel.setTime(idwe1);
-                wemodel.setType(betBefore); 
-                wemodel.setLastUpdate(new Date());
-                wemodel.setPrice(arrayPriceBet[count]+"");
-                
-                //set betvip 
-				 wemodelvip.setId(wemodel.getId());
-				 wemodelvip.setLastUpdate(wemodel.getLastUpdate());				
-				 wemodelvip.setTime(wemodel.getTime());
-				 wemodelvip.setType(wemodel.getType());
-                
-                
-                if(!bet.equals("")&&!list.get(0).getType().equals(betBefore)){ 
-                     System.out.println("lenh nay thua bet truoc do "+betBefore+ "lan thua" +count); 
-                      //nếu bet thua đánh xen ke giam tang tang giam  Gấp thếp
-                     //update kq thua 
-                     wemodel.setAction("THUA");
-                   
-                     try {
-                    	 
-						prService.updateDoc(wemodel);
-						 capnhatLaiLo(wemodel);
-						 if(count==5) {
-							 countvipthua++;
-							 wemodelvip.setAction(wemodel.getAction()); 
-							 wemodelvip.setPrice(pricebetvip+""); 
-							 prvipService.updateDoc(wemodelvip);
-							 capnhatLaiLoVip(wemodelvip);
-							  if(countvipthua>3) {
-									 countvipthua=0;
-								   }
-						 }
-						 
-						 
-						 
-						 
-					} catch (ExecutionException | InterruptedException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-						System.out.println("update kq fail");
-					}
-                    
-                     if(count==0) {
-                    	 thualandau=bet+"";
-                    	 System.out.println("thua lan đầu");
-                    	   bet=list.get(0).getType();
-                     }else { 
-                         if(thualandau.equals("G")){
-                         bet=arrayBetG[count] ;
-                         }else if(thualandau.equals("T")){
-                         bet=arrayBetT[count] ;
-                          }
-                     }
-                  
-                      count++;
-                    
-                  }else{
-                	  
-                	  
-                	  if(bet.equals("")) {
-                		   bet=list.get(0).getType();
-                	  }else {
-                       // nếu bet trước thắng thì đẩy lệnh bet lên  
-                	  //update kq thang
-                	  wemodel.setAction("THANG");
-                	  try {
-  						prService.updateDoc(wemodel);
-  						 capnhatLaiLo(wemodel);
-  						 if(count==5) {
-  							countvipthua=0;
-							 wemodelvip.setAction(wemodel.getAction()); 
-							 wemodelvip.setPrice(pricebetvip+""); 
-							 prvipService.updateDoc(wemodelvip);
-							 capnhatLaiLoVip(wemodelvip);
-						 }
-						 
-  					} catch (ExecutionException | InterruptedException e1) {
-  						// TODO Auto-generated catch block
-  						e1.printStackTrace();
-  						System.out.println("update kq fail");
-  					}
-                      
-                   System.out.println("lenh nay thang bet truoc do "+bet+ "lan thua" +count);            
-                   count=0;   
-                   bet=list.get(0).getType();
-                	  }
-                  }
-                
-                // day lenh sau len server
-                String idfl=getnetxtimetrade(0);
-   			     flmodel.setTime(idfl); 
-                flmodel.setType(bet);
-                betBefore=bet+"";
-                flmodel.setPrice(arrayPriceBet[count]+"");
-                try {
-                	System.out.println("đẩy lệnh lên server"+flmodel.toString());
-					flsService.updateDoc(flmodel);
-				 
-					pricebetvip=arrayPriceBet[countvipthua];
-					
-					if(count==5) { 
-						flmodelvip.setId(flmodel.getId());
-						flmodelvip.setPrice(pricebetvip+"");
-						flmodelvip.setTime(flmodel.getTime());
-						flmodelvip.setType(flmodel.getType()); 
-						System.out.println("đẩy lệnh vip lên server"+flmodelvip.toString());
-						flvipsService.updateDoc(flmodelvip);
-					}
-					
-					
-					
-				} catch (ExecutionException | InterruptedException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-					System.out.println("update lenh danh fail");
-				}
-                 if(count>11) {
-                    count=0;
-                 }
-               
-                    
-                }
-             
-            };
-    		 Firestore firestore = FirestoreClient.getFirestore();
-    	        firestore.collection("wefinex_chart").orderBy("settledDateTime", Query.Direction.DESCENDING).limit(50).addSnapshotListener(eventListener);
-              
-    		
-            
-            
-
-    }
-
-
-	
+//  //  @PreDestroy
+//    public void destroy() {
+//        
+//    }
+//  //  @PostConstruct
+//    public void init() { 
+//    	buget=130;
+//    	bugetvip=15;
+//    	flmodel= new FollowModel();
+//    	 wemodel=new WefinetModel();
+//    	 tmmodeltemp= new TotalAmountModel();
+//    	 tmmodel= new TotalAmountModel();
+//    	 flmodelvip= new FollowModel();
+//    	 tmmodeltempvip= new TotalAmountModel();
+//    	 tmmodelvip= new TotalAmountModel();
+//    	 wemodelvip=new WefinetModel();
+//    		EventListener<QuerySnapshot> eventListener = (documentSnapshot, e) -> { 
+//    			
+//    			 List<WefinexResult> list= documentSnapshot.toObjects(WefinexResult.class); 
+//    			 flmodel.setId("command"); 
+//                System.out.println(list.toString()); 
+//                if(bet==""){
+//                    count= 0 ;
+//                }
+//                String idwe1=dateToStringPlus(new Date(list.get(0).getCreatedTime()),0);
+//                String idwe=dateToStringPlus(new Date(list.get(0).getSettledDateTime()),0);
+//                String timeCk=getnetxtimetrade(-1);
+//                System.out.println("lenh cuoi cung"+idwe+"gio lệnh cuối"+timeCk+"--"+idwe1);
+//                if(idwe1.equals(timeCk)) {
+//                wemodel.setId(idwe1);
+//                wemodel.setTime(idwe1);
+//                wemodel.setType(betBefore); 
+//                wemodel.setLastUpdate(new Date());
+//                wemodel.setPrice(arrayPriceBet[count]+"");
+//                
+//                //set betvip 
+//				 wemodelvip.setId(wemodel.getId());
+//				 wemodelvip.setLastUpdate(wemodel.getLastUpdate());				
+//				 wemodelvip.setTime(wemodel.getTime());
+//				 wemodelvip.setType(wemodel.getType());
+//                
+//                
+//                if(!bet.equals("")&&!list.get(0).getType().equals(betBefore)){ 
+//                     System.out.println("lenh nay thua bet truoc do "+betBefore+ "lan thua" +count); 
+//                      //nếu bet thua đánh xen ke giam tang tang giam  Gấp thếp
+//                     //update kq thua 
+//                     wemodel.setAction("THUA");
+//                   
+//                     try {
+//                    	 
+//						prService.updateDoc(wemodel);
+//						 capnhatLaiLo(wemodel);
+//						 if(count==5) {
+//							 countvipthua++;
+//							 wemodelvip.setAction(wemodel.getAction()); 
+//							 wemodelvip.setPrice(pricebetvip+""); 
+//							 prvipService.updateDoc(wemodelvip);
+//							 capnhatLaiLoVip(wemodelvip);
+//							  if(countvipthua>3) {
+//									 countvipthua=0;
+//								   }
+//						 }
+//						 
+//						 
+//						 
+//						 
+//					} catch (ExecutionException | InterruptedException e1) {
+//						// TODO Auto-generated catch block
+//						e1.printStackTrace();
+//						System.out.println("update kq fail");
+//					}
+//                    
+//                     if(count==0) {
+//                    	 thualandau=bet+"";
+//                    	 System.out.println("thua lan đầu");
+//                    	   bet=list.get(0).getType();
+//                     }else { 
+//                         if(thualandau.equals("G")){
+//                         bet=arrayBetG[count] ;
+//                         }else if(thualandau.equals("T")){
+//                         bet=arrayBetT[count] ;
+//                          }
+//                     }
+//                  
+//                      count++;
+//                    
+//                  }else{
+//                	  
+//                	  
+//                	  if(bet.equals("")) {
+//                		   bet=list.get(0).getType();
+//                	  }else {
+//                       // nếu bet trước thắng thì đẩy lệnh bet lên  
+//                	  //update kq thang
+//                	  wemodel.setAction("THANG");
+//                	  try {
+//  						prService.updateDoc(wemodel);
+//  						 capnhatLaiLo(wemodel);
+//  						 if(count==5) {
+//  							countvipthua=0;
+//							 wemodelvip.setAction(wemodel.getAction()); 
+//							 wemodelvip.setPrice(pricebetvip+""); 
+//							 prvipService.updateDoc(wemodelvip);
+//							 capnhatLaiLoVip(wemodelvip);
+//						 }
+//						 
+//  					} catch (ExecutionException | InterruptedException e1) {
+//  						// TODO Auto-generated catch block
+//  						e1.printStackTrace();
+//  						System.out.println("update kq fail");
+//  					}
+//                      
+//                   System.out.println("lenh nay thang bet truoc do "+bet+ "lan thua" +count);            
+//                   count=0;   
+//                   bet=list.get(0).getType();
+//                	  }
+//                  }
+//                
+//                // day lenh sau len server
+//                String idfl=getnetxtimetrade(0);
+//   			     flmodel.setTime(idfl); 
+//                flmodel.setType(bet);
+//                betBefore=bet+"";
+//                flmodel.setPrice(arrayPriceBet[count]+"");
+//                try {
+//                	System.out.println("đẩy lệnh lên server"+flmodel.toString());
+//					flsService.updateDoc(flmodel);
+//				 
+//					pricebetvip=arrayPriceBet[countvipthua];
+//					
+//					if(count==5) { 
+//						flmodelvip.setId(flmodel.getId());
+//						flmodelvip.setPrice(pricebetvip+"");
+//						flmodelvip.setTime(flmodel.getTime());
+//						flmodelvip.setType(flmodel.getType()); 
+//						System.out.println("đẩy lệnh vip lên server"+flmodelvip.toString());
+//						flvipsService.updateDoc(flmodelvip);
+//					}
+//					
+//					
+//					
+//				} catch (ExecutionException | InterruptedException e1) {
+//					// TODO Auto-generated catch block
+//					e1.printStackTrace();
+//					System.out.println("update lenh danh fail");
+//				}
+//                 if(count>11) {
+//                    count=0;
+//                 }
+//               
+//                    
+//                }
+//             
+//            };
+//    		 Firestore firestore = FirestoreClient.getFirestore();
+//    	        firestore.collection("wefinex_chart").orderBy("settledDateTime", Query.Direction.DESCENDING).limit(50).addSnapshotListener(eventListener);
+//              
+//    		
+//            
+//            
+//
+//    }
+//
+//
+//	
     private void capnhatLaiLo(WefinetModel wemodel2) throws ExecutionException, InterruptedException {
 	try {
 
