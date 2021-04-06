@@ -45,8 +45,8 @@ public class BotWeServerService {
     int count=0;
 FollowModel flmodel;
 WefinetModel wemodel;
-String[] arrayBetG  =  {"G","T","T","G","G","T","T","G","G","T","T","G"};
-String[] arrayBetT  =  {"T","G","G","T","T","G","G","T","T","G","G","T"};
+String[] arrayBetT  =  {"G","T","T","G","G","T","T","G","G","T","T","G"};
+String[] arrayBetG  =  {"T","G","G","T","T","G","G","T","T","G","G","T"};
 int[] arrayPriceBet  = {1,2,4,8,16,32,64,128,256,512,1024,2048};
 int countvipthua=0;
 @Autowired
