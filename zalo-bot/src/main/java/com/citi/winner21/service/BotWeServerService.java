@@ -48,7 +48,7 @@ WefinetModel wemodel;
 String[] arrayBetG  =  {"G","T","T","G","G","T","T","G","G","T","T","G"};
 String[] arrayBetT  =  {"T","G","G","T","T","G","G","T","T","G","G","T"};
 int[] arrayPriceBet  = {1,2,4,8,16,32,64,128,256,512,1024,2048};
-
+int countvipthua=0;
 @Autowired
 TotalAmountService tmservice;
 
@@ -120,11 +120,15 @@ TotalAmountVipService tmvipservice;
                     	 
 						prService.updateDoc(wemodel);
 						 capnhatLaiLo(wemodel);
-						 if(count>4&&count<7) {
+						 if(count==5) {
+							 countvipthua++;
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
 							 prvipService.updateDoc(wemodelvip);
 							 capnhatLaiLoVip(wemodelvip);
+							  if(countvipthua>3) {
+									 countvipthua=0;
+								   }
 						 }
 						 
 						 
@@ -162,7 +166,8 @@ TotalAmountVipService tmvipservice;
                 	  try {
   						prService.updateDoc(wemodel);
   						 capnhatLaiLo(wemodel);
-  						 if(count>4&&count<7) {
+  						 if(count==5) {
+  							countvipthua=0;
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
 							 prvipService.updateDoc(wemodelvip);
@@ -191,24 +196,9 @@ TotalAmountVipService tmvipservice;
                 	System.out.println("đẩy lệnh lên server"+flmodel.toString());
 					flsService.updateDoc(flmodel);
 				 
-					switch (count) {
-					case 5:
-						pricebetvip=arrayPriceBet[0];
-						break;
-					case 6:
-						pricebetvip=arrayPriceBet[1];
-						break;
-					case 7:
-						pricebetvip=arrayPriceBet[2];
-						break;
-					case 8:
-						pricebetvip=arrayPriceBet[3];
-						break;
-					default:
-						pricebetvip=0;
-						break;
-					}
-					if(count>4&&count<9) { 
+					pricebetvip=arrayPriceBet[countvipthua];
+					
+					if(count==5) { 
 						flmodelvip.setId(flmodel.getId());
 						flmodelvip.setPrice(pricebetvip+"");
 						flmodelvip.setTime(flmodel.getTime());
@@ -227,6 +217,7 @@ TotalAmountVipService tmvipservice;
                  if(count>11) {
                     count=0;
                  }
+               
                     
                 }
              
