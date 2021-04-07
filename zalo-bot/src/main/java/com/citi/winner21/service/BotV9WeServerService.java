@@ -46,6 +46,7 @@ public class BotV9WeServerService {
     int pricebetvip=1;
     String thualandau="G";
     int count=0;
+    int countMuc=3;
 FollowModel flmodel;
 WefinetModel wemodel;
 String[] arrayBetT  =  {"G","T","T","G","G","T","T","G","G","T","T","G"};
@@ -74,7 +75,7 @@ TotalAmountVipService tmvipservice;
 
  TotalAmountModel tmmodeltempvip;
  double bugetvip;
-
+boolean thiTruongXau=true;
     @PreDestroy
     public void destroy() {
         
@@ -94,17 +95,18 @@ TotalAmountVipService tmvipservice;
     	 tmmodelvip= new TotalAmountModel();
     	 wemodelvip=new WefinetModel();
     		EventListener<QuerySnapshot> eventListener = (documentSnapshot, e) -> { 
-    			
+    			 
     			 List<WefinexResult> list= documentSnapshot.toObjects(WefinexResult.class); 
+ 
     			 flmodel.setId("command"); 
-                System.out.println(list.toString()); 
+               managerHistory.ghilogvip(list.toString()); 
                 if(bet==""){
                     count= 0 ;
                 }
                 String idwe1=dateToStringPlus(new Date(list.get(0).getCreatedTime()),0);
                 String idwe=dateToStringPlus(new Date(list.get(0).getSettledDateTime()),0);
                 String timeCk=getnetxtimetrade(-1);
-                System.out.println("lenh cuoi cung"+idwe+"gio lệnh cuối"+timeCk+"--"+idwe1);
+               managerHistory.ghilogvip("lenh cuoi cung"+idwe+"gio lệnh cuối"+timeCk+"--"+idwe1);
                 if(idwe1.equals(timeCk)) {
                 wemodel.setId(idwe1);
                 wemodel.setTime(idwe1);
@@ -119,23 +121,25 @@ TotalAmountVipService tmvipservice;
 				 wemodelvip.setType(wemodel.getType());
                 
                 
-                if(!bet.equals("")&&!list.get(0).getType().equals(betBefore)){ 
-                   //  System.out.println("lenh nay thua bet truoc do "+betBefore+ "lan thua" +count); 
-                      //nếu bet thua đánh xen ke giam tang tang giam  Gấp thếp
+                if(!bet.equals("")&&!list.get(0).getType().equals(betBefore)){  
                      //update kq thua 
                      wemodel.setAction("THUA");
                    
                      try {
-                    	 System.out.println("đẩy lệnh thua" +wemodel.toString());
-//						prService.updateDoc(wemodel);
-//						 capnhatLaiLo(wemodel);
-						 if(count==6) {
+                    	 managerHistory.ghilogvip("đẩy lệnh thua" +wemodel.toString());
+						prService.updateDoc(wemodel);
+						 capnhatLaiLo(wemodel);
+						 if(count==countMuc) {
+//							 if(countMuc<8) {
+//							 countMuc++;}else {
+//							 countMuc--;
+//							 }
 							 countvipthua++;
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
-//							 prvipService.updateDoc(wemodelvip);
-//							 capnhatLaiLoVip(wemodelvip);
-							 System.out.println("đẩy lệnh vip thua" +wemodelvip.toString());
+							 prvipService.updateDoc(wemodelvip);
+							 capnhatLaiLoVip(wemodelvip);
+							managerHistory.ghilogvip("đẩy lệnh vip thua" +wemodelvip.toString());
 							  if(countvipthua>3) {
 									 countvipthua=0;
 								   }
@@ -147,30 +151,13 @@ TotalAmountVipService tmvipservice;
 					} catch (Exception e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
-						System.out.println("update kq fail");
-					}
-                    
-//                     if(count==0) {
-//                    	 thualandau=bet+"";
-//                    	 System.out.println("thua lan đầu");
-//                    	   bet=list.get(0).getType();
-//                     }else { 
-//                         if(thualandau.equals("G")){
-//                         bet=arrayBetG[count] ;
-//                         }else if(thualandau.equals("T")){
-//                         bet=arrayBetT[count] ;
-//                          }
-//                     }
-                  
+						managerHistory.ghilogvip("update kq fail");
+					} 
                       count++;
                     
-                  }else{
-                	  
-//                	  
-//                	  if(bet.equals("")) {
-//                		   bet=list.get(0).getType();
-//                	  }else {
-                       // nếu bet trước thắng thì đẩy lệnh bet lên  
+                  }else  
+                      {
+                	   
                 	  //update kq thang
                 	  wemodel.setAction("THANG");
                 	  //khảo sát lại thị trường
@@ -188,41 +175,56 @@ TotalAmountVipService tmvipservice;
 
                 	  
                 	  try {
-  						//prService.updateDoc(wemodel);
-  						// capnhatLaiLo(wemodel);
-
-							 System.out.println("đẩy lệnh thang" +wemodel.toString());
-  						 if(count==6) {
-  							countvipthua=0;
+                		   if(!wemodel.getType().equals("")&&!thiTruongXau) {
+  						prService.updateDoc(wemodel);
+  						 capnhatLaiLo(wemodel);
+                			   System.out.println("coun"+count);
+                			   
+							managerHistory.ghilogvip("đẩy lệnh thang" +wemodel.toString());
+							 if(count==countMuc) {
+//  							 if(countMuc>5) {
+//  								 countMuc--;}else {
+//  								 countMuc++;
+//  								 }
+								 countvipthua=0;
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
-							 System.out.println("đẩy lệnh vip thang" +wemodelvip.toString());
-							// prvipService.updateDoc(wemodelvip);
-							// capnhatLaiLoVip(wemodelvip);
+							managerHistory.ghilogvip("đẩy lệnh vip thang" +wemodelvip.toString());
+							 prvipService.updateDoc(wemodelvip);
+							 capnhatLaiLoVip(wemodelvip);
 						 }
+                		   
+                		   }
+  						
 						 
   					} catch (Exception e1) {
   						// TODO Auto-generated catch block
   						e1.printStackTrace();
-  						System.out.println("update kq fail");
+  						managerHistory.ghilogvip("update kq fail");
   					}
-                      
-                   System.out.println("lenh nay thang bet truoc do "+bet+ "lan thua" +count);            
-                   count=0;   
-                 //  bet=list.get(0).getType();
-//                	  }
+                                
+                   count=0;    
                   }
                 
                 
-              
-
+                
+                
+               
 	    			 Lenh l= managerHistory.getDubaotheothoigian();
 	    			 boolean checkquagapthep=managerHistory.isCheckquagapthep();
+	    			 if(!checkquagapthep&&thiTruongXau) {
+		    				thiTruongXau=false;
+		    				 return;
+		    			 }
 	    			 if(checkquagapthep&&count==0) {
+	    				thiTruongXau=true;
+	    				System.out.println("thị trường xấu vui long chờ");
 	    				 return;
 	    			 }
+	    			
 	    			 
-	    	    	 System.out.println("lenh"+l.toString());
+	    			 
+	    	    	managerHistory.ghilogvip("lenh"+l.toString());
 	    	    	
 	    	    	 int chon=l.getChon();
 	    	    	 if(chon==1) {
@@ -238,7 +240,9 @@ TotalAmountVipService tmvipservice;
 	    	    		 gttg=l.getNo4();
 	    	    	 }
 	    	    	
-	    	    	 System.out.println("chon"+chon+"no."+gttg);   
+	    	    	 
+						managerHistory.ghilogvip("chon"+chon+"no."+gttg);
+					 
 	    			 if(gttg==1||gttg==4) {
           	    	    	bet="G";
           	    	    }else {
@@ -254,18 +258,18 @@ TotalAmountVipService tmvipservice;
                 betBefore=bet+"";
                 flmodel.setPrice(arrayPriceBet[count]+"");
                 try {
-                	System.out.println("đẩy lệnh lên server"+flmodel.toString());
-				//	flsService.updateDoc(flmodel);
+                	managerHistory.ghilogvip("đẩy lệnh lên server"+flmodel.toString());
+					flsService.updateDoc(flmodel);
 				 
 					pricebetvip=arrayPriceBet[countvipthua];
 					
-					if(count==6) { 
+					if(count==countMuc) { 
 						flmodelvip.setId(flmodel.getId());
 						flmodelvip.setPrice(pricebetvip+"");
 						flmodelvip.setTime(flmodel.getTime());
 						flmodelvip.setType(flmodel.getType()); 
-						System.out.println("đẩy lệnh vip lên server"+flmodelvip.toString());
-						//flvipsService.updateDoc(flmodelvip);
+						managerHistory.ghilogvip("đẩy lệnh vip lên server"+flmodelvip.toString());
+						flvipsService.updateDoc(flmodelvip);
 					}
 					
 					
@@ -273,7 +277,7 @@ TotalAmountVipService tmvipservice;
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
-					System.out.println("update lenh danh fail");
+					managerHistory.ghilogvip("update lenh danh fail");
 				}
                  if(count>11) {
                     count=0;
@@ -281,7 +285,6 @@ TotalAmountVipService tmvipservice;
                
                     
                 }
-             
             };
     		 Firestore firestore = FirestoreClient.getFirestore();
     	        firestore.collection("wefinex_chart").orderBy("settledDateTime", Query.Direction.DESCENDING).limit(50).addSnapshotListener(eventListener);
@@ -322,11 +325,11 @@ TotalAmountVipService tmvipservice;
         tmservice.saveDoc(tmmodel);
 	} 
 	
-	System.out.println("cập nhật lãi lỗ ok");
+	managerHistory.ghilogvip("cập nhật lãi lỗ ok");
 } catch (Exception e) {
 	//
 	e.printStackTrace();
-	System.out.println("cập nhật lãi lỗ fail");
+	managerHistory.ghilogvip("cập nhật lãi lỗ fail");
 }	
 	
 		
@@ -363,11 +366,11 @@ TotalAmountVipService tmvipservice;
         tmvipservice.saveDoc(tmmodelvip);
 	} 
 	
-	System.out.println("cập nhật lãi lỗ vip ok");
+	managerHistory.ghilogvip("cập nhật lãi lỗ vip ok");
 } catch (Exception e) {
 	//
 	e.printStackTrace();
-	System.out.println("cập nhật lãi lỗ vip fail");
+	managerHistory.ghilogvip("cập nhật lãi lỗ vip fail");
 }	
 	
 		

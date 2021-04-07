@@ -6,20 +6,15 @@ import lombok.NoArgsConstructor;
 
 @Data 
 @AllArgsConstructor
-
 @NoArgsConstructor
 public class WefinexResult {
-	private  double closePrice  ; 
-	
-	
-	private double  highPrice ;  
-
-	private double  lowPrice ;  
-
-	private double openPrice ;  
-
+	private  double closePrice  ;  
+	private double  highPrice ;   
+	private double  lowPrice ;   
+	private double openPrice ;   
 	private Long settledDateTime;  
-	private Long 	createdTime;
+	private Long createdTime;
 	private double status;  
-	private String type;  
+	private String type; 
+	private String key; 
 }

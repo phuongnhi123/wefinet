@@ -78,43 +78,42 @@ public ManagerHistory() {
 	this.list3= new ArrayList<Integer>() ;
 	this.list4= new ArrayList<Integer>() ;
 	duptime=new ArrayList<String>(); 
-//    try {
-//    	 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-//    	 String tenTmp= "logTradeApp/";
-//    	 String tenTm=tenTmp+sdfdate.format(timestamp);
-//    	 
-//    	 
-//    	 File thumuc=new File(tenTm);
-//     	if(!thumuc.exists()) {
-//     		thumuc.mkdirs();
-//     	}
-//    	File log=new File(tenTm+"/log"+sdf.format(timestamp)+".txt");
-//    	if(!log.exists()) {
-//    		log.createNewFile();
-//    	}
-//    		 
-//        	File logDetail=new File(tenTm+"/logDetail"+sdf.format(timestamp)+".txt");
-//        	if(!logDetail.exists()) {
-//        		logDetail.createNewFile();
-//    	}
-//        	 
-//       	    File thumuckq=new File("KetQua");
-//        	File kqrs=new File(thumuckq.getAbsoluteFile()+"/kqrs.txt");
-//        	if(!kqrs.exists()) {
-//        		System.out.println("chua co kqrs");
-//        		kqrs.createNewFile();
-//    	}
-//    	  
-//		writer1 = new PrintWriter(log, "UTF-8");
-//		writer2 = new PrintWriter(logDetail, "UTF-8");
-//		writer3 = new PrintWriter(new FileWriter(thumuckq.getAbsoluteFile()+"/kqrs.txt",true));
-//		
-//	
-//		
-//    } catch (IOException e) {
-		// TODO Auto-generated catch block
-//		e.printStackTrace();
-//	}
+    try {
+    	 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+    	 String tenTmp= "logTradeApp/";
+    	 String tenTm=tenTmp+sdfdate.format(timestamp);
+    	 
+    	 
+    	 File thumuc=new File(tenTm);
+     	if(!thumuc.exists()) {
+     		thumuc.mkdirs();
+     	}
+    	File log=new File(tenTm+"/log"+sdf.format(timestamp)+".txt");
+    	if(!log.exists()) {
+    		log.createNewFile();
+    	}
+    		 
+        	File logDetail=new File(tenTm+"/logDetail"+sdf.format(timestamp)+".txt");
+        	if(!logDetail.exists()) {
+        		logDetail.createNewFile();
+    	}
+        	 
+       	    File thumuckq=new File("KetQua");
+        	File kqrs=new File(thumuckq.getAbsoluteFile()+"/kqrs.txt");
+        	if(!kqrs.exists()) {
+        		System.out.println("chua co kqrs");
+        		kqrs.createNewFile();
+    	}
+    	  
+		writer1 = new PrintWriter(log, "UTF-8");
+		writer2 = new PrintWriter(logDetail, "UTF-8");
+		writer3 = new PrintWriter(new FileWriter(thumuckq.getAbsoluteFile()+"/kqrs.txt",true));
+		
+	
+		
+    } catch (IOException e) {
+	
+	}
 //    
    
 }
@@ -678,7 +677,10 @@ public void ghilogconsole(String log) {
 	writer2.append(currentTime()+log+"\n");
 	writer2.flush(); 
  }
-public void ghilogvip(String log) throws IOException { 
+public void ghilogvip(String log) { 
+	System.out.println(log);
+	try {
+	
 	 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 	 String tenTmp= "logVip/";
 	 String tenTm=tenTmp+sdfdate.format(timestamp); 
@@ -693,6 +695,10 @@ public void ghilogvip(String log) throws IOException {
 	writervip = new PrintWriter(new FileWriter(flog,true)); 
 	writervip.append(log+"\n");
 	writervip.flush(); 
+	
+	} catch (Exception e) {
+		// TODO: handle exception
+	}
  }
 
 
