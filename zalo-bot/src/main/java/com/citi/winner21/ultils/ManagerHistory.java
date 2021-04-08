@@ -688,7 +688,7 @@ public void ghilogvip(String log) {
  	if(!thumuc.exists()) {
  		thumuc.mkdirs();
  	}
-	File flog=new File(tenTm+"/log"+sdf.format(timestamp)+".txt");
+	File flog=new File(tenTm+"/log"+sdfdate.format(timestamp)+".txt");
 	if(!flog.exists()) {
 		flog.createNewFile();
 	} 
