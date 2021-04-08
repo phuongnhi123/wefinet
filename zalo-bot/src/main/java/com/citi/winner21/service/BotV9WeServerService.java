@@ -146,8 +146,8 @@ boolean thiTruongXau=true;
 							 prService.updateDoc(wemodelvip1);
 							 capnhatLaiLo(wemodelvip1);
 							managerHistory.ghilogvip("đẩy lệnh vip 1 thua" +wemodelvip1.toString());
-							  if(countvipthua>6) {
-									 countvipthua=0;
+							  if(countvipthua1>6) {
+									 countvipthua1=0;
 								   }
 						 }
 						  
