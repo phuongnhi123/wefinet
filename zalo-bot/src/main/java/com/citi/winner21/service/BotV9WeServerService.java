@@ -43,16 +43,19 @@ public class BotV9WeServerService {
     private static final SimpleDateFormat sdfdatetimemm = new SimpleDateFormat("dd:MM:yyyy HH:mm");
     String bet="";
     String betBefore="";
-    int pricebetvip=1;
+    int pricebetvip=1; 
+    int pricebetvip1=1;
     String thualandau="G";
     int count=0;
-    int countMuc=3;
+    int countMuc=6;
+    int countMuc1=4;
 FollowModel flmodel;
 WefinetModel wemodel;
 String[] arrayBetT  =  {"G","T","T","G","G","T","T","G","G","T","T","G"};
 String[] arrayBetG  =  {"T","G","G","T","T","G","G","T","T","G","G","T"};
 int[] arrayPriceBet  = {1,2,4,8,16,32,64,128,256,512,1024,2048};
 int countvipthua=0;
+int countvipthua1=0;
 @Autowired
 TotalAmountService tmservice;
 
@@ -68,6 +71,9 @@ private ManagerHistory managerHistory;
 
 WefinetModel wemodelvip;
 FollowModel flmodelvip;
+
+WefinetModel wemodelvip1;
+FollowModel flmodelvip1;
 @Autowired
 TotalAmountVipService tmvipservice;
 
@@ -94,12 +100,16 @@ boolean thiTruongXau=true;
     	 tmmodeltempvip= new TotalAmountModel();
     	 tmmodelvip= new TotalAmountModel();
     	 wemodelvip=new WefinetModel();
+
+    	 flmodelvip1= new FollowModel(); 
+    	 wemodelvip1=new WefinetModel();
+    	 
     		EventListener<QuerySnapshot> eventListener = (documentSnapshot, e) -> { 
     			 
     			 List<WefinexResult> list= documentSnapshot.toObjects(WefinexResult.class); 
  
     			 flmodel.setId("command"); 
-               managerHistory.ghilogvip(list.toString()); 
+             //  managerHistory.ghilogvip(list.toString()); 
                 if(bet==""){
                     count= 0 ;
                 }
@@ -126,21 +136,30 @@ boolean thiTruongXau=true;
                      wemodel.setAction("THUA");
                    
                      try {
-                    	 managerHistory.ghilogvip("đẩy lệnh thua" +wemodel.toString());
-						prService.updateDoc(wemodel);
-						 capnhatLaiLo(wemodel);
-						 if(count==countMuc) {
-//							 if(countMuc<8) {
-//							 countMuc++;}else {
-//							 countMuc--;
-//							 }
+                    	// managerHistory.ghilogvip("đẩy lệnh thua" +wemodel.toString());
+//						prService.updateDoc(wemodel);
+//						 capnhatLaiLo(wemodel);
+                    	 if(count==countMuc1) { 
+							 countvipthua1++;
+							 wemodelvip1.setAction(wemodel.getAction()); 
+							 wemodelvip1.setPrice(pricebetvip1+""); 
+							 prService.updateDoc(wemodelvip1);
+							 capnhatLaiLo(wemodelvip1);
+							managerHistory.ghilogvip("đẩy lệnh vip 1 thua" +wemodelvip1.toString());
+							  if(countvipthua>6) {
+									 countvipthua=0;
+								   }
+						 }
+						  
+                    	 
+						 if(count==countMuc) { 
 							 countvipthua++;
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
 							 prvipService.updateDoc(wemodelvip);
 							 capnhatLaiLoVip(wemodelvip);
 							managerHistory.ghilogvip("đẩy lệnh vip thua" +wemodelvip.toString());
-							  if(countvipthua>3) {
+							  if(countvipthua>4) {
 									 countvipthua=0;
 								   }
 						 }
@@ -176,16 +195,20 @@ boolean thiTruongXau=true;
                 	  
                 	  try {
                 		   if(!wemodel.getType().equals("")&&!thiTruongXau) {
-  						prService.updateDoc(wemodel);
-  						 capnhatLaiLo(wemodel);
+//  						prService.updateDoc(wemodel);
+//  						 capnhatLaiLo(wemodel);
                 			   System.out.println("coun"+count);
                 			   
-							managerHistory.ghilogvip("đẩy lệnh thang" +wemodel.toString());
-							 if(count==countMuc) {
-//  							 if(countMuc>5) {
-//  								 countMuc--;}else {
-//  								 countMuc++;
-//  								 }
+						//	managerHistory.ghilogvip("đẩy lệnh thang" +wemodel.toString());
+							 if(count==countMuc1) { 
+								 countvipthua1=0;
+							 wemodelvip1.setAction(wemodel.getAction()); 
+							 wemodelvip1.setPrice(pricebetvip1+""); 
+							managerHistory.ghilogvip("đẩy lệnh vip 1 thang" +wemodelvip1.toString());
+							 prService.updateDoc(wemodelvip1);
+							 capnhatLaiLo(wemodelvip1);
+						 }
+							 if(count==countMuc) { 
 								 countvipthua=0;
 							 wemodelvip.setAction(wemodel.getAction()); 
 							 wemodelvip.setPrice(pricebetvip+""); 
@@ -258,12 +281,21 @@ boolean thiTruongXau=true;
                 betBefore=bet+"";
                 flmodel.setPrice(arrayPriceBet[count]+"");
                 try {
-                	managerHistory.ghilogvip("đẩy lệnh lên server"+flmodel.toString());
-					flsService.updateDoc(flmodel);
+                //	managerHistory.ghilogvip("đẩy lệnh lên server"+flmodel.toString());
+//					flsService.updateDoc(flmodel);
 				 
-					pricebetvip=arrayPriceBet[countvipthua];
+                	if(count==countMuc1) {
+                		pricebetvip1=arrayPriceBet[countvipthua1]; 
+						flmodelvip1.setId(flmodel.getId());
+						flmodelvip1.setPrice(pricebetvip1+"");
+						flmodelvip1.setTime(flmodel.getTime());
+						flmodelvip1.setType(flmodel.getType()); 
+						managerHistory.ghilogvip("đẩy lệnh vip 1 lên server"+flmodelvip1.toString());
+						flsService.updateDoc(flmodelvip1);
+					}
 					
-					if(count==countMuc) { 
+					if(count==countMuc) {  
+						pricebetvip=arrayPriceBet[countvipthua]; 
 						flmodelvip.setId(flmodel.getId());
 						flmodelvip.setPrice(pricebetvip+"");
 						flmodelvip.setTime(flmodel.getTime());
