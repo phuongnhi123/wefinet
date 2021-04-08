@@ -129,6 +129,10 @@ boolean thiTruongXau=true;
 				 wemodelvip.setLastUpdate(wemodel.getLastUpdate());				
 				 wemodelvip.setTime(wemodel.getTime());
 				 wemodelvip.setType(wemodel.getType());
+				 wemodelvip1.setId(wemodel.getId());
+				 wemodelvip1.setLastUpdate(wemodel.getLastUpdate());				
+				 wemodelvip1.setTime(wemodel.getTime());
+				 wemodelvip1.setType(wemodel.getType());
                 
                 
                 if(!bet.equals("")&&!list.get(0).getType().equals(betBefore)){  
@@ -136,7 +140,7 @@ boolean thiTruongXau=true;
                      wemodel.setAction("THUA");
                    
                      try {
-                    	// managerHistory.ghilogvip("đẩy lệnh thua" +wemodel.toString());
+                    	 managerHistory.ghilogvip("đẩy lệnh thua" +wemodel.toString());
 //						prService.updateDoc(wemodel);
 //						 capnhatLaiLo(wemodel);
                     	 if(count==countMuc1) { 
@@ -199,7 +203,7 @@ boolean thiTruongXau=true;
 //  						 capnhatLaiLo(wemodel);
                 			   System.out.println("coun"+count);
                 			   
-						//	managerHistory.ghilogvip("đẩy lệnh thang" +wemodel.toString());
+							managerHistory.ghilogvip("đẩy lệnh thang" +wemodel.toString());
 							 if(count==countMuc1) { 
 								 countvipthua1=0;
 							 wemodelvip1.setAction(wemodel.getAction()); 
@@ -281,7 +285,7 @@ boolean thiTruongXau=true;
                 betBefore=bet+"";
                 flmodel.setPrice(arrayPriceBet[count]+"");
                 try {
-                //	managerHistory.ghilogvip("đẩy lệnh lên server"+flmodel.toString());
+                	managerHistory.ghilogvip("đẩy lệnh lên server"+flmodel.toString());
 //					flsService.updateDoc(flmodel);
 				 
                 	if(count==countMuc1) {
