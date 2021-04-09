@@ -1,0 +1,4 @@
+cập nhật lãi lỗ ok
+lenhLenh  08:04:2021 08:17	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+đẩy lệnh lên serverFollowModel(id=command, type=T, time=08:04:2021 08:17, price=4)

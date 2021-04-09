@@ -1,0 +1,5 @@
+cập nhật lãi lỗ ok
+đẩy lệnh thangWefinetModel(type=G, price=2, time=08:04:2021 15:48, action=THANG, id=08:04:2021 15:48, lastUpdate=Thu Apr 08 15:49:02 ICT 2021)
+lenhLenh  08:04:2021 15:49	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+đẩy lệnh lên serverFollowModel(id=command, type=G, time=08:04:2021 15:49, price=1)

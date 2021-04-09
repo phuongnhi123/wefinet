@@ -1,0 +1,530 @@
+lenh cuoi cung08:04:2021 21:09gio lệnh cuối08:04:2021 21:08--08:04:2021 21:08
+lenh cuoi cung08:04:2021 21:10gio lệnh cuối08:04:2021 21:09--08:04:2021 21:09
+lenhLenh  08:04:2021 21:10	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:11gio lệnh cuối08:04:2021 21:10--08:04:2021 21:10
+lenhLenh  08:04:2021 21:11	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:12gio lệnh cuối08:04:2021 21:11--08:04:2021 21:11
+lenhLenh  08:04:2021 21:12	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 21:13gio lệnh cuối08:04:2021 21:12--08:04:2021 21:12
+lenhLenh  08:04:2021 21:13	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 21:14gio lệnh cuối08:04:2021 21:13--08:04:2021 21:13
+lenhLenh  08:04:2021 21:14	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:15gio lệnh cuối08:04:2021 21:14--08:04:2021 21:14
+lenhLenh  08:04:2021 21:15	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 21:16gio lệnh cuối08:04:2021 21:15--08:04:2021 21:15
+lenhLenh  08:04:2021 21:16	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 21:17gio lệnh cuối08:04:2021 21:16--08:04:2021 21:16
+lenhLenh  08:04:2021 21:17	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=1]
+chon1no.1
+lenh cuoi cung08:04:2021 21:18gio lệnh cuối08:04:2021 21:17--08:04:2021 21:17
+lenhLenh  08:04:2021 21:18	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:19gio lệnh cuối08:04:2021 21:18--08:04:2021 21:18
+lenhLenh  08:04:2021 21:19	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:20gio lệnh cuối08:04:2021 21:19--08:04:2021 21:19
+lenhLenh  08:04:2021 21:20	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 21:21gio lệnh cuối08:04:2021 21:20--08:04:2021 21:20
+lenhLenh  08:04:2021 21:21	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 21:22gio lệnh cuối08:04:2021 21:21--08:04:2021 21:21
+lenhLenh  08:04:2021 21:22	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:23gio lệnh cuối08:04:2021 21:22--08:04:2021 21:22
+lenhLenh  08:04:2021 21:23	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:24gio lệnh cuối08:04:2021 21:23--08:04:2021 21:23
+lenhLenh  08:04:2021 21:24	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+lenh cuoi cung08:04:2021 21:25gio lệnh cuối08:04:2021 21:24--08:04:2021 21:24
+lenhLenh  08:04:2021 21:25	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 21:26gio lệnh cuối08:04:2021 21:25--08:04:2021 21:25
+lenhLenh  08:04:2021 21:26	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 21:27gio lệnh cuối08:04:2021 21:26--08:04:2021 21:26
+lenhLenh  08:04:2021 21:27	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=3]
+chon3no.2
+lenh cuoi cung08:04:2021 21:28gio lệnh cuối08:04:2021 21:27--08:04:2021 21:27
+lenhLenh  08:04:2021 21:28	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=3]
+chon3no.3
+lenh cuoi cung08:04:2021 21:29gio lệnh cuối08:04:2021 21:28--08:04:2021 21:28
+lenhLenh  08:04:2021 21:29	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 21:30gio lệnh cuối08:04:2021 21:29--08:04:2021 21:29
+lenhLenh  08:04:2021 21:30	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 21:31gio lệnh cuối08:04:2021 21:30--08:04:2021 21:30
+lenhLenh  08:04:2021 21:31	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:32gio lệnh cuối08:04:2021 21:31--08:04:2021 21:31
+lenhLenh  08:04:2021 21:32	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:33gio lệnh cuối08:04:2021 21:32--08:04:2021 21:32
+lenhLenh  08:04:2021 21:33	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+lenh cuoi cung08:04:2021 21:34gio lệnh cuối08:04:2021 21:33--08:04:2021 21:33
+lenhLenh  08:04:2021 21:34	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=2]
+chon2no.1
+lenh cuoi cung08:04:2021 21:35gio lệnh cuối08:04:2021 21:34--08:04:2021 21:34
+lenhLenh  08:04:2021 21:35	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+đẩy lệnh vip 1 lên serverFollowModel(id=command, type=T, time=08:04:2021 21:35, price=1)
+lenh cuoi cung08:04:2021 21:36gio lệnh cuối08:04:2021 21:35--08:04:2021 21:35
+update kq fail
+lenhLenh  08:04:2021 21:36	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:37gio lệnh cuối08:04:2021 21:36--08:04:2021 21:36
+lenhLenh  08:04:2021 21:37	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+đẩy lệnh vip lên serverFollowModel(id=command, type=G, time=08:04:2021 21:37, price=1)
+lenh cuoi cung08:04:2021 21:38gio lệnh cuối08:04:2021 21:37--08:04:2021 21:37
+đẩy lệnh vip thangWefinetModel(type=G, price=1, time=08:04:2021 21:37, action=THANG, id=08:04:2021 21:37, lastUpdate=Thu Apr 08 21:38:02 ICT 2021)
+cập nhật lãi lỗ vip ok
+lenhLenh  08:04:2021 21:38	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:39gio lệnh cuối08:04:2021 21:38--08:04:2021 21:38
+lenhLenh  08:04:2021 21:39	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 21:40gio lệnh cuối08:04:2021 21:39--08:04:2021 21:39
+lenhLenh  08:04:2021 21:40	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 21:41gio lệnh cuối08:04:2021 21:40--08:04:2021 21:40
+lenhLenh  08:04:2021 21:41	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 21:42gio lệnh cuối08:04:2021 21:41--08:04:2021 21:41
+lenhLenh  08:04:2021 21:42	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 21:43gio lệnh cuối08:04:2021 21:42--08:04:2021 21:42
+lenhLenh  08:04:2021 21:43	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 21:44gio lệnh cuối08:04:2021 21:43--08:04:2021 21:43
+lenhLenh  08:04:2021 21:44	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 21:45gio lệnh cuối08:04:2021 21:44--08:04:2021 21:44
+lenhLenh  08:04:2021 21:45	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 21:46gio lệnh cuối08:04:2021 21:45--08:04:2021 21:45
+lenhLenh  08:04:2021 21:46	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:47gio lệnh cuối08:04:2021 21:46--08:04:2021 21:46
+lenhLenh  08:04:2021 21:47	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:48gio lệnh cuối08:04:2021 21:47--08:04:2021 21:47
+lenhLenh  08:04:2021 21:48	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:49gio lệnh cuối08:04:2021 21:48--08:04:2021 21:48
+lenhLenh  08:04:2021 21:49	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:50gio lệnh cuối08:04:2021 21:49--08:04:2021 21:49
+lenhLenh  08:04:2021 21:50	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+lenh cuoi cung08:04:2021 21:51gio lệnh cuối08:04:2021 21:50--08:04:2021 21:50
+lenhLenh  08:04:2021 21:51	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 21:52gio lệnh cuối08:04:2021 21:51--08:04:2021 21:51
+lenhLenh  08:04:2021 21:52	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:53gio lệnh cuối08:04:2021 21:52--08:04:2021 21:52
+lenhLenh  08:04:2021 21:53	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 21:54gio lệnh cuối08:04:2021 21:53--08:04:2021 21:53
+lenhLenh  08:04:2021 21:54	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+lenh cuoi cung08:04:2021 21:55gio lệnh cuối08:04:2021 21:54--08:04:2021 21:54
+lenhLenh  08:04:2021 21:55	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=2]
+chon2no.1
+lenh cuoi cung08:04:2021 21:56gio lệnh cuối08:04:2021 21:55--08:04:2021 21:55
+lenhLenh  08:04:2021 21:56	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+đẩy lệnh vip 1 lên serverFollowModel(id=command, type=T, time=08:04:2021 21:56, price=2)
+lenh cuoi cung08:04:2021 21:57gio lệnh cuối08:04:2021 21:56--08:04:2021 21:56
+đẩy lệnh vip 1 thangWefinetModel(type=null, price=2, time=null, action=THANG, id=null, lastUpdate=Thu Apr 08 21:36:02 ICT 2021)
+update kq fail
+lenhLenh  08:04:2021 21:57	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 21:58gio lệnh cuối08:04:2021 21:57--08:04:2021 21:57
+lenhLenh  08:04:2021 21:58	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 21:59gio lệnh cuối08:04:2021 21:58--08:04:2021 21:58
+lenhLenh  08:04:2021 21:59	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:00gio lệnh cuối08:04:2021 21:59--08:04:2021 21:59
+lenhLenh  08:04:2021 22:00	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:01gio lệnh cuối08:04:2021 22:00--08:04:2021 22:00
+lenhLenh  08:04:2021 22:01	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 22:02gio lệnh cuối08:04:2021 22:01--08:04:2021 22:01
+lenhLenh  08:04:2021 22:02	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 22:03gio lệnh cuối08:04:2021 22:02--08:04:2021 22:02
+lenhLenh  08:04:2021 22:03	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=4]
+chon4no.3
+lenh cuoi cung08:04:2021 22:04gio lệnh cuối08:04:2021 22:03--08:04:2021 22:03
+lenhLenh  08:04:2021 22:04	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:05gio lệnh cuối08:04:2021 22:04--08:04:2021 22:04
+lenhLenh  08:04:2021 22:05	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 22:06gio lệnh cuối08:04:2021 22:05--08:04:2021 22:05
+lenhLenh  08:04:2021 22:06	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:07gio lệnh cuối08:04:2021 22:06--08:04:2021 22:06
+lenhLenh  08:04:2021 22:07	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:08gio lệnh cuối08:04:2021 22:07--08:04:2021 22:07
+lenhLenh  08:04:2021 22:08	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:09gio lệnh cuối08:04:2021 22:08--08:04:2021 22:08
+lenhLenh  08:04:2021 22:09	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 22:10gio lệnh cuối08:04:2021 22:09--08:04:2021 22:09
+lenhLenh  08:04:2021 22:10	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 22:11gio lệnh cuối08:04:2021 22:10--08:04:2021 22:10
+lenhLenh  08:04:2021 22:11	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:12gio lệnh cuối08:04:2021 22:11--08:04:2021 22:11
+lenhLenh  08:04:2021 22:12	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 22:13gio lệnh cuối08:04:2021 22:12--08:04:2021 22:12
+lenhLenh  08:04:2021 22:13	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=1]
+chon1no.1
+lenh cuoi cung08:04:2021 22:14gio lệnh cuối08:04:2021 22:13--08:04:2021 22:13
+lenhLenh  08:04:2021 22:14	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:15gio lệnh cuối08:04:2021 22:14--08:04:2021 22:14
+lenhLenh  08:04:2021 22:15	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:16gio lệnh cuối08:04:2021 22:15--08:04:2021 22:15
+lenhLenh  08:04:2021 22:16	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:17gio lệnh cuối08:04:2021 22:16--08:04:2021 22:16
+lenhLenh  08:04:2021 22:17	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 22:18gio lệnh cuối08:04:2021 22:17--08:04:2021 22:17
+lenhLenh  08:04:2021 22:18	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:19gio lệnh cuối08:04:2021 22:18--08:04:2021 22:18
+lenhLenh  08:04:2021 22:19	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:20gio lệnh cuối08:04:2021 22:19--08:04:2021 22:19
+lenhLenh  08:04:2021 22:20	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:21gio lệnh cuối08:04:2021 22:20--08:04:2021 22:20
+lenhLenh  08:04:2021 22:21	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 22:22gio lệnh cuối08:04:2021 22:21--08:04:2021 22:21
+lenhLenh  08:04:2021 22:22	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 22:23gio lệnh cuối08:04:2021 22:22--08:04:2021 22:22
+lenhLenh  08:04:2021 22:23	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:24gio lệnh cuối08:04:2021 22:23--08:04:2021 22:23
+lenhLenh  08:04:2021 22:24	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:25gio lệnh cuối08:04:2021 22:24--08:04:2021 22:24
+lenhLenh  08:04:2021 22:25	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 22:26gio lệnh cuối08:04:2021 22:25--08:04:2021 22:25
+lenhLenh  08:04:2021 22:26	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:27gio lệnh cuối08:04:2021 22:26--08:04:2021 22:26
+lenhLenh  08:04:2021 22:27	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:28gio lệnh cuối08:04:2021 22:27--08:04:2021 22:27
+lenhLenh  08:04:2021 22:28	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 22:29gio lệnh cuối08:04:2021 22:28--08:04:2021 22:28
+lenhLenh  08:04:2021 22:29	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 22:30gio lệnh cuối08:04:2021 22:29--08:04:2021 22:29
+lenhLenh  08:04:2021 22:30	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=3]
+chon3no.2
+lenh cuoi cung08:04:2021 22:31gio lệnh cuối08:04:2021 22:30--08:04:2021 22:30
+lenhLenh  08:04:2021 22:31	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=3]
+chon3no.3
+lenh cuoi cung08:04:2021 22:32gio lệnh cuối08:04:2021 22:31--08:04:2021 22:31
+lenhLenh  08:04:2021 22:32	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=3]
+chon3no.4
+lenh cuoi cung08:04:2021 22:33gio lệnh cuối08:04:2021 22:32--08:04:2021 22:32
+lenhLenh  08:04:2021 22:33	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+đẩy lệnh vip 1 lên serverFollowModel(id=command, type=G, time=08:04:2021 22:33, price=1)
+lenh cuoi cung08:04:2021 22:34gio lệnh cuối08:04:2021 22:33--08:04:2021 22:33
+đẩy lệnh vip 1 thangWefinetModel(type=null, price=1, time=null, action=THANG, id=null, lastUpdate=Thu Apr 08 21:57:03 ICT 2021)
+update kq fail
+lenhLenh  08:04:2021 22:34	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:35gio lệnh cuối08:04:2021 22:34--08:04:2021 22:34
+lenhLenh  08:04:2021 22:35	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:36gio lệnh cuối08:04:2021 22:35--08:04:2021 22:35
+lenhLenh  08:04:2021 22:36	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 22:37gio lệnh cuối08:04:2021 22:36--08:04:2021 22:36
+lenhLenh  08:04:2021 22:37	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:38gio lệnh cuối08:04:2021 22:37--08:04:2021 22:37
+lenhLenh  08:04:2021 22:38	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 22:38gio lệnh cuối08:04:2021 22:38--08:04:2021 22:38
+lenhLenh  08:04:2021 22:39	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+lenh cuoi cung08:04:2021 22:39gio lệnh cuối08:04:2021 22:39--08:04:2021 22:39
+lenhLenh  08:04:2021 22:40	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=2]
+chon2no.1
+lenh cuoi cung08:04:2021 22:40gio lệnh cuối08:04:2021 22:40--08:04:2021 22:40
+lenhLenh  08:04:2021 22:41	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:41gio lệnh cuối08:04:2021 22:41--08:04:2021 22:41
+lenhLenh  08:04:2021 22:42	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 22:42gio lệnh cuối08:04:2021 22:42--08:04:2021 22:42
+lenhLenh  08:04:2021 22:43	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=2]
+chon2no.4
+lenh cuoi cung08:04:2021 22:43gio lệnh cuối08:04:2021 22:43--08:04:2021 22:43
+lenhLenh  08:04:2021 22:44	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:44gio lệnh cuối08:04:2021 22:44--08:04:2021 22:44
+lenhLenh  08:04:2021 22:45	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 22:45gio lệnh cuối08:04:2021 22:45--08:04:2021 22:45
+lenhLenh  08:04:2021 22:46	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=1]
+chon1no.1
+lenh cuoi cung08:04:2021 22:46gio lệnh cuối08:04:2021 22:46--08:04:2021 22:46
+lenhLenh  08:04:2021 22:47	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:47gio lệnh cuối08:04:2021 22:47--08:04:2021 22:47
+lenhLenh  08:04:2021 22:48	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:48gio lệnh cuối08:04:2021 22:48--08:04:2021 22:48
+lenhLenh  08:04:2021 22:49	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 22:49gio lệnh cuối08:04:2021 22:49--08:04:2021 22:49
+lenhLenh  08:04:2021 22:50	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:50gio lệnh cuối08:04:2021 22:50--08:04:2021 22:50
+lenhLenh  08:04:2021 22:51	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 22:51gio lệnh cuối08:04:2021 22:51--08:04:2021 22:51
+lenhLenh  08:04:2021 22:52	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 22:52gio lệnh cuối08:04:2021 22:52--08:04:2021 22:52
+lenhLenh  08:04:2021 22:53	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=1]
+chon1no.1
+lenh cuoi cung08:04:2021 22:53gio lệnh cuối08:04:2021 22:53--08:04:2021 22:53
+lenhLenh  08:04:2021 22:54	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=1]
+chon1no.2
+lenh cuoi cung08:04:2021 22:54gio lệnh cuối08:04:2021 22:54--08:04:2021 22:54
+lenhLenh  08:04:2021 22:55	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+đẩy lệnh vip 1 lên serverFollowModel(id=command, type=T, time=08:04:2021 22:55, price=1)
+lenh cuoi cung08:04:2021 22:55gio lệnh cuối08:04:2021 22:55--08:04:2021 22:55
+đẩy lệnh vip 1 thangWefinetModel(type=null, price=1, time=null, action=THANG, id=null, lastUpdate=Thu Apr 08 22:34:02 ICT 2021)
+update kq fail
+lenhLenh  08:04:2021 22:56	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 22:56gio lệnh cuối08:04:2021 22:56--08:04:2021 22:56
+lenhLenh  08:04:2021 22:57	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 22:57gio lệnh cuối08:04:2021 22:57--08:04:2021 22:57
+lenhLenh  08:04:2021 22:58	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 22:58gio lệnh cuối08:04:2021 22:58--08:04:2021 22:58
+lenhLenh  08:04:2021 22:59	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 22:59gio lệnh cuối08:04:2021 22:59--08:04:2021 22:59
+lenhLenh  08:04:2021 23:00	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:00gio lệnh cuối08:04:2021 23:00--08:04:2021 23:00
+lenhLenh  08:04:2021 23:01	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 23:01gio lệnh cuối08:04:2021 23:01--08:04:2021 23:01
+lenhLenh  08:04:2021 23:02	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:02gio lệnh cuối08:04:2021 23:02--08:04:2021 23:02
+lenhLenh  08:04:2021 23:03	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:03gio lệnh cuối08:04:2021 23:03--08:04:2021 23:03
+lenhLenh  08:04:2021 23:04	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:04gio lệnh cuối08:04:2021 23:04--08:04:2021 23:04
+lenhLenh  08:04:2021 23:05	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 23:05gio lệnh cuối08:04:2021 23:05--08:04:2021 23:05
+lenhLenh  08:04:2021 23:06	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=4]
+chon4no.3
+lenh cuoi cung08:04:2021 23:06gio lệnh cuối08:04:2021 23:06--08:04:2021 23:06
+lenhLenh  08:04:2021 23:07	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+đẩy lệnh vip 1 lên serverFollowModel(id=command, type=G, time=08:04:2021 23:07, price=1)
+lenh cuoi cung08:04:2021 23:07gio lệnh cuối08:04:2021 23:07--08:04:2021 23:07
+update kq fail
+lenhLenh  08:04:2021 23:08	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:08gio lệnh cuối08:04:2021 23:08--08:04:2021 23:08
+lenhLenh  08:04:2021 23:09	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:09gio lệnh cuối08:04:2021 23:09--08:04:2021 23:09
+lenhLenh  08:04:2021 23:10	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:10gio lệnh cuối08:04:2021 23:10--08:04:2021 23:10
+lenhLenh  08:04:2021 23:11	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 23:11gio lệnh cuối08:04:2021 23:11--08:04:2021 23:11
+lenhLenh  08:04:2021 23:12	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:12gio lệnh cuối08:04:2021 23:12--08:04:2021 23:12
+lenhLenh  08:04:2021 23:13	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 23:13gio lệnh cuối08:04:2021 23:13--08:04:2021 23:13
+lenhLenh  08:04:2021 23:14	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=1]
+chon1no.1
+lenh cuoi cung08:04:2021 23:14gio lệnh cuối08:04:2021 23:14--08:04:2021 23:14
+lenhLenh  08:04:2021 23:15	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:15gio lệnh cuối08:04:2021 23:15--08:04:2021 23:15
+lenhLenh  08:04:2021 23:16	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 23:16gio lệnh cuối08:04:2021 23:16--08:04:2021 23:16
+lenhLenh  08:04:2021 23:17	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:17gio lệnh cuối08:04:2021 23:17--08:04:2021 23:17
+lenhLenh  08:04:2021 23:18	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:18gio lệnh cuối08:04:2021 23:18--08:04:2021 23:18
+lenhLenh  08:04:2021 23:19	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:19gio lệnh cuối08:04:2021 23:19--08:04:2021 23:19
+lenhLenh  08:04:2021 23:20	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:20gio lệnh cuối08:04:2021 23:20--08:04:2021 23:20
+lenhLenh  08:04:2021 23:21	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 23:21gio lệnh cuối08:04:2021 23:21--08:04:2021 23:21
+lenhLenh  08:04:2021 23:22	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:22gio lệnh cuối08:04:2021 23:22--08:04:2021 23:22
+lenhLenh  08:04:2021 23:23	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:23gio lệnh cuối08:04:2021 23:23--08:04:2021 23:23
+lenhLenh  08:04:2021 23:24	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:24gio lệnh cuối08:04:2021 23:24--08:04:2021 23:24
+lenhLenh  08:04:2021 23:25	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 23:25gio lệnh cuối08:04:2021 23:25--08:04:2021 23:25
+lenhLenh  08:04:2021 23:26	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=1]
+chon1no.1
+lenh cuoi cung08:04:2021 23:26gio lệnh cuối08:04:2021 23:26--08:04:2021 23:26
+lenhLenh  08:04:2021 23:27	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:27gio lệnh cuối08:04:2021 23:27--08:04:2021 23:27
+lenhLenh  08:04:2021 23:28	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 23:28gio lệnh cuối08:04:2021 23:28--08:04:2021 23:28
+lenhLenh  08:04:2021 23:29	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:29gio lệnh cuối08:04:2021 23:29--08:04:2021 23:29
+lenhLenh  08:04:2021 23:30	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:30gio lệnh cuối08:04:2021 23:30--08:04:2021 23:30
+lenhLenh  08:04:2021 23:31	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:31gio lệnh cuối08:04:2021 23:31--08:04:2021 23:31
+lenhLenh  08:04:2021 23:32	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 23:32gio lệnh cuối08:04:2021 23:32--08:04:2021 23:32
+lenhLenh  08:04:2021 23:33	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:33gio lệnh cuối08:04:2021 23:33--08:04:2021 23:33
+lenhLenh  08:04:2021 23:34	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:34gio lệnh cuối08:04:2021 23:34--08:04:2021 23:34
+lenhLenh  08:04:2021 23:35	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:35gio lệnh cuối08:04:2021 23:35--08:04:2021 23:35
+lenhLenh  08:04:2021 23:36	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:36gio lệnh cuối08:04:2021 23:36--08:04:2021 23:36
+lenhLenh  08:04:2021 23:37	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:37gio lệnh cuối08:04:2021 23:37--08:04:2021 23:37
+lenhLenh  08:04:2021 23:38	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=4]
+chon4no.1
+lenh cuoi cung08:04:2021 23:38gio lệnh cuối08:04:2021 23:38--08:04:2021 23:38
+lenhLenh  08:04:2021 23:39	G	G	T	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=1, no2=4, no3=3, no4=2, chon=4]
+chon4no.2
+lenh cuoi cung08:04:2021 23:39gio lệnh cuối08:04:2021 23:39--08:04:2021 23:39
+lenhLenh  08:04:2021 23:40	T	G	G	T, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=2, no2=1, no3=4, no4=3, chon=4]
+chon4no.3
+lenh cuoi cung08:04:2021 23:40gio lệnh cuối08:04:2021 23:40--08:04:2021 23:40
+lenhLenh  08:04:2021 23:41	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+đẩy lệnh vip 1 lên serverFollowModel(id=command, type=G, time=08:04:2021 23:41, price=2)
+lenh cuoi cung08:04:2021 23:41gio lệnh cuối08:04:2021 23:41--08:04:2021 23:41
+đẩy lệnh vip 1 thangWefinetModel(type=null, price=2, time=null, action=THANG, id=null, lastUpdate=Thu Apr 08 23:08:02 ICT 2021)
+update kq fail
+lenhLenh  08:04:2021 23:42	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:42gio lệnh cuối08:04:2021 23:42--08:04:2021 23:42
+lenhLenh  08:04:2021 23:43	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:43gio lệnh cuối08:04:2021 23:43--08:04:2021 23:43
+lenhLenh  08:04:2021 23:44	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:44gio lệnh cuối08:04:2021 23:44--08:04:2021 23:44
+lenhLenh  08:04:2021 23:45	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4
+lenh cuoi cung08:04:2021 23:45gio lệnh cuối08:04:2021 23:45--08:04:2021 23:45
+lenhLenh  08:04:2021 23:46	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:46gio lệnh cuối08:04:2021 23:46--08:04:2021 23:46
+lenhLenh  08:04:2021 23:47	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:47gio lệnh cuối08:04:2021 23:47--08:04:2021 23:47
+lenhLenh  08:04:2021 23:48	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:48gio lệnh cuối08:04:2021 23:48--08:04:2021 23:48
+lenhLenh  08:04:2021 23:49	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 23:49gio lệnh cuối08:04:2021 23:49--08:04:2021 23:49
+lenhLenh  08:04:2021 23:50	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:50gio lệnh cuối08:04:2021 23:50--08:04:2021 23:50
+lenhLenh  08:04:2021 23:51	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:51gio lệnh cuối08:04:2021 23:51--08:04:2021 23:51
+lenhLenh  08:04:2021 23:52	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:52gio lệnh cuối08:04:2021 23:52--08:04:2021 23:52
+lenhLenh  08:04:2021 23:53	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=2]
+chon2no.3
+lenh cuoi cung08:04:2021 23:53gio lệnh cuối08:04:2021 23:53--08:04:2021 23:53
+lenhLenh  08:04:2021 23:54	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+lenh cuoi cung08:04:2021 23:54gio lệnh cuối08:04:2021 23:54--08:04:2021 23:54
+lenhLenh  08:04:2021 23:55	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+lenh cuoi cung08:04:2021 23:55gio lệnh cuối08:04:2021 23:55--08:04:2021 23:55
+lenhLenh  08:04:2021 23:56	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=2]
+chon2no.2
+lenh cuoi cung08:04:2021 23:56gio lệnh cuối08:04:2021 23:56--08:04:2021 23:56
+lenhLenh  08:04:2021 23:57	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:57gio lệnh cuối08:04:2021 23:57--08:04:2021 23:57
+lenhLenh  08:04:2021 23:58	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=1]
+chon1no.3
+lenh cuoi cung08:04:2021 23:58gio lệnh cuối08:04:2021 23:58--08:04:2021 23:58
+lenhLenh  08:04:2021 23:59	G	T	T	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=4, no2=3, no3=2, no4=1, chon=1]
+chon1no.4

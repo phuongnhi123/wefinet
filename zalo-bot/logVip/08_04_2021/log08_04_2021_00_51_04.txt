@@ -1,0 +1,5 @@
+cập nhật lãi lỗ vip ok
+đẩy lệnh vip thuaWefinetModel(type=G, price=2, time=08:04:2021 00:50, action=THUA, id=08:04:2021 00:50, lastUpdate=Thu Apr 08 00:51:03 ICT 2021)
+lenhLenh  08:04:2021 00:51	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=3]
+chon3no.1
+đẩy lệnh lên serverFollowModel(id=command, type=G, time=08:04:2021 00:51, price=16)

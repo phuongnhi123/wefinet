@@ -1,0 +1,2 @@
+chon2no.2
+đẩy lệnh lên serverFollowModel(id=command, type=T, time=08:04:2021 12:25, price=16)

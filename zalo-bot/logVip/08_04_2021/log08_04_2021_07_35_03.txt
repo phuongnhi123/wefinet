@@ -1,0 +1,4 @@
+cập nhật lãi lỗ vip ok
+lenhLenh  08:04:2021 07:35	T	T	G	G, trangthai1=, trangthai2=, trangthai3=, trangthai4=, no1=3, no2=2, no3=1, no4=4, chon=4]
+chon4no.4
+đẩy lệnh lên serverFollowModel(id=command, type=G, time=08:04:2021 07:35, price=1)
