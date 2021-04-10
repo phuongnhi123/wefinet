@@ -49,7 +49,7 @@ WefinetModel wemodel;
 String[] arrayBetT  =  {"T","T","T","T","T","T","T","T","T","T","T","T"};
 String[] arrayBetG  =  {"G","G","G","G","G","G","G","G","G","G","G","G"};
 int[] arrayPriceBet  = {1,2,4,8,16,32,64,128,256,512,1024,2048};
-
+int countMuc=3;
 @Autowired
 TotalAmountService tmservice;
 
@@ -75,7 +75,7 @@ TotalAmountVipService tmvipservice;
     }
     @PostConstruct
     public void init() { 
-    	buget=300;
+    	buget=130;
 //    	bugetvip=15;
     	flmodel= new FollowModel();
     	 wemodel=new WefinetModel();
@@ -103,7 +103,7 @@ TotalAmountVipService tmvipservice;
                 if(idwe1.equals(timeCk)) { 
                 	if(landau) {
                  		// nếu lân đầu kiểm tra đúng đúp thì gửi lệnh 
-                	if(checkDupColor(list,3)) {
+                	if(checkDupColor(list,countMuc)) {
                 	  	  bet=(list.get(0).getType().equals("G")?"T":"G");
                 	  	  String idfl=getnetxtimetrade(0);
                 	     flmodel.setId("command");
@@ -156,10 +156,9 @@ TotalAmountVipService tmvipservice;
          						System.out.println("update kq fail");
          					} 
                 			count++;
-                			if(count>8)
                 			//kiểm tra đúng đup muc thêm phát nữa
                 		    // day lenh sau len server 
-                			if((checkDupColor(list,3))) {
+                			if((checkDupColor(list,countMuc))) {
                             String idfl=getnetxtimetrade(0); 
                    	        flmodel.setId("command");
                			    flmodel.setTime(idfl); 
